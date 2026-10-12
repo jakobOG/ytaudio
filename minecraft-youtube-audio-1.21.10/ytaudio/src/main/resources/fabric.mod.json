@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ytaudio",
+  "version": "${version}",
+  "name": "Minecraft YouTube Audio",
+  "description": "Spielt YouTube-Audio ueber den Simple-Voice-Chat ab.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.ytaudio.YtAudioClient"],
+    "voicechat": ["de.ytaudio.YtAudioPlugin"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*",
+    "voicechat": "*"
+  }
+}
